@@ -1,0 +1,10 @@
+Rails
+
+- has a large and active plugin development community which means that a lot of common, and many uncommon components 
+  are easy to implement in a rails project
+
+- due to it's age, and the number of people using it, it's easy to find documented solutions to nearly any sort of 
+  development issue you may encounter on disucssion boards and in mailing list archives.
+
+- one downside to the above is that there is a lot of *bad* rails documentation and advice online, much of it written 
+  for older versions of Rails
