@@ -1,0 +1,14 @@
+* hackable
+One of the things that is fundamentally different is the approach to opening it up.  Merb is designed for people who want to hack the framework.
+
+* speed
+If one release is slower than the previous one, it's a bug.
+
+* smaller
+"No code is faster than no code"
+
+* lots of pieces
+"All you need.  None you don't."
+
+* flexible
+Merb gives you options.  That's good and bad.  You're a grownup, you'll deal.
