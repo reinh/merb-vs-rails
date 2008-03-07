@@ -1,0 +1,38 @@
+## Merb vs. Rails
+
+Some general points: 
+
+* speed/performance 
+  - merb can handle more requests per second
+  - doesn't block the same way as Rails so file uploads aren't so
+  scary
+
+* quality/style of code
+  - merb has less magic. you can often open up a class and logically
+  follow whats going on. 
+  - extraneous/unnecessary code is found less in merb (the returning
+  method is really only a convenience...you won't find it in merb)
+
+* framework design/philosophy
+  - more control...you can use just a little bit (--flat or
+  --very-flat flags to generate small and one file projects
+  respectively) or the whole stack if you prefer
+  - framework split out into various gems to allow for above
+
+* gems vs plugins
+  - a matter of taste...but "plugin" type functionality isn't merb
+  specific. it makes use of rubygems to bring in outside bundles of
+  code
+
+* running frozen merb/rails
+  - easier to switch back and forth: you can run script/frozen-merb to
+  use the frozen framework, or just merb to use the normally installed
+  one, versus having rails installed in vendor/rails and always have
+  that load. 
+
+* overall feelings
+  - merb feels more like a framework written by developers for
+  developers. 
+  - features like display @object, the router, etc all kind of give
+  you the feeling that the overall design choices are made for
+  specific, and good, reasons. 
